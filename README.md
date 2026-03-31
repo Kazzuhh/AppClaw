@@ -1,6 +1,6 @@
 # AppClaw 🦞
 
-**AI-powered iOS app generator — utilizing 11 specialized agents orchestrated by a Claude Opus agent to research, validate, design, build, and ship iOS apps autonomously.**
+**AI-powered iOS app generator — Utilizing 11 specialized agents orchestrated by a Claude Opus agent to research, validate, design, build, and ship iOS apps autonomously.**
 
 ---
 
