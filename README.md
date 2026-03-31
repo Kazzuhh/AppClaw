@@ -1,12 +1,12 @@
 # AppClaw 🦞
 
-**AI-powered iOS app factory — 11 specialized agents orchestrated by Claude Opus to research, validate, design, build, and ship iOS apps autonomously.**
+**AI-powered iOS app generator — utilziing 11 specialized agents orchestrated by a Claude Opus agent to research, validate, design, build, and ship iOS apps autonomously.**
 
 ---
 
 ## What is AppClaw?
 
-AppClaw is a solo-operated app factory built on [OpenClaw](https://openclaw.ai). Instead of a traditional development team, it uses 11 AI agents — each with a defined role, skill file, and output standard — to take an app idea from raw niche research all the way to App Store submission.
+AppClaw is a solo-operated app generator built on [OpenClaw](https://openclaw.ai). Instead of a traditional development team or manual AI coding, it uses 11 AI agents — each with a defined role, skill file, and output standard — to take an app idea from raw niche research all the way to App Store submission.
 
 The goal: ship one polished, monetizable iOS app per month with minimal manual intervention.
 
@@ -89,35 +89,6 @@ Niche Idea
 | Payments | StoreKit 2 |
 | Crash reporting | Firebase Crashlytics |
 | Dashboard | Node.js (local) |
-
----
-
-## Repository Structure
-
-```
-AppClaw/
-├── agent-skills/           # SKILL.md and STATE.md for all 11 agents
-│   ├── Bartholomew Orchestrator/
-│   ├── Alani Business Analyst/
-│   ├── Alex PM/
-│   ├── Tony Revenue Strategist/
-│   ├── Aiden UIUX Designer/
-│   ├── Kyler ArchitectCTO/
-│   ├── Victoria Tech Lead/
-│   ├── Johnny Backend Swift Engineer/
-│   ├── Jett Frontend Swift Engineer/
-│   ├── Adan QA Engineer/
-│   └── Kenny Marketing Manager/
-├── dashboard/              # Real-time pipeline monitor (Node.js)
-│   └── dashboard.js
-├── workspace/              # Foundation documents
-│   ├── AGENTS.md           # Pipeline rules and chain of command
-│   ├── philosophy.md       # Core operating principles
-│   ├── problem.md          # What this solves
-│   └── proposal.md         # Full system design
-└── cycles/                 # Example cycle output
-    └── TiltBreak/          # First app — emotional regulation for gamers
-```
 
 ---
 
